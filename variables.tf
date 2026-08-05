@@ -4,7 +4,7 @@ variable "location" {
 }
 
 variable "rsg" {
-    default = "rsg00002"
+    default = "rsg00004"
 }
 
 variable "subscription_id" {
