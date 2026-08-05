@@ -5,7 +5,7 @@ resource azurerm_resource_group "rg11" {
     tags = {
         Environment = "Dev"
         ManagedBy  = "Manual"
-        project Code = 10124
+        Project_Code = 10124
     }
 }
  
