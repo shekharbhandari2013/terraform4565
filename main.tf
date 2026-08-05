@@ -1,0 +1,10 @@
+resource azurerm_resource_group "rg11" {
+    name     = var.rsg
+    location = var.location
+
+    tags = {
+        Environment = "Dev"
+        ManagedBy  = "Manual"
+    }
+}
+ 
