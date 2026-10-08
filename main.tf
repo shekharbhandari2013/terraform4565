@@ -6,9 +6,10 @@ resource azurerm_resource_group "rg11" {
         Environment = "Dev"
         ManagedBy  = "Manual"
         Project_Code = 10124
-        Project_Name = sdss
+        Project_Name = myproject
         USSID = 123456
         project_Description = "This is a test project"
+
 
     }
 }
